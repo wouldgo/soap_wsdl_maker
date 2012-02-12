@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="WSDL utilities"
+            id="org.soap_wsdl_maker.plugin">
+      </category>
+      <wizard
+            name="WSDL Maker"
+            icon="icons/img.gif"
+            category="org.soap_wsdl_maker.plugin"
+            class="org.soap_wsdl_maker.plugin.wizards.NewWsdl"
+            id="org.soap_wsdl_maker.plugin.wizards.NewWsdl">
+      </wizard>
+   </extension>
+</plugin>
